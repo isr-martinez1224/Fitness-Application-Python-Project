@@ -50,3 +50,11 @@ In this screen, the user can add and see their information regarding their weigh
 
    This button is used to go back to the main menu screen.
 
+
+## Measurements.db
+<p align="center">
+  <img src="demo_pictures/database.png"/>
+</p>
+
+
+This file is the database where all the information is stored. The program reads and writes the data using the SQLite which involve functions and methods I developed involving SQL queries. Currently dates, weight measurements, and waist circumference measurements are stored. Circumferences are NULL do to no implementation for that option, but will be added soon. Possible new additions could be stored in the future if planned out accordingly.
