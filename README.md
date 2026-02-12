@@ -34,15 +34,19 @@ Description of each widgets
 
 In this screen, the user can add and see their information regarding their weight over specific dates. Still a WIP, but the idea is there. Only Add Measurements works for now.
 
-* **View Measurements - Select Here**
+* **Graph**
 
-   This is where the user can select where they want to navigate to next. Currently there are 2 options: Weight Measurements or Waist Circumference Measurements. Currently only Weight works as an option but others will be implemented as features are developed.
+   This graph displays the user's progress based on the information they submitted. The plotted points make it easier to see which points of data were used. Currently only displays based on the data that was previously entered, dynamic refresh display still in development.
+
+* **Edit Measurements Button**
+
+   This button will let the user edit an entry if they need to, currently in development.
    
-* **Submit Button**
+* **Add Measurements Button**
    
-   This button is used once the user has made a selection.
+   This button will let the user enter a new entry based on the values entered in the Weight and Date fields. The weight must be a number in pounds (lbs) and the date in (YYYY/MM/DD) format. The entry fields are currently also displayed on this menu, but there are some ideas to turn these into sub menus.
 
-* **Log Off Button**
+* **Return to Main Menu Button**
 
-   This button is used to close the program. Essentially another way to close the window.
+   This button is used to go back to the main menu screen.
 
